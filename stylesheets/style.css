@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+/*    color: #1e1e1e;*/
+    color: #f2f2f2;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20vh 0 10vh 0;
+}
+
+
+
+header .container {
+    text-align: center;
+}
+
+header h1{
+    display: inline;
+    font-weight: 300;
+}
+
+header h1 strong{
+    font-weight: 500;
+}
+
+header img {
+    margin: 0 auto;
+    display:block;
+    margin-bottom: 3em;
+}
+
+header#build {
+    padding: 3em 0 0;
+}
+
+header#build img {
+    width: 50%;
+}
+
+header#build h1{
+    font-size: 1.5em;
+}
+
+@media (max-width: 845px) {
+    header img {
+        max-width: 90%;
+    }
+    
+    header {
+        padding: 7em 0 5em 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header img {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1{
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    header strong {
+        font-weight: 600;
+    }
+    
+    header {
+        padding: 5em 0 3em 0;
+    }
+    
+    header#build img {
+        width: 100%;
+    }
+
+}
+
+footer {
+/*    background-color: #f2f2f2;*/
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+footer p {
+/*   color: #1e1e1e;*/
+   margin-bottom: 0;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.carousel-container {
+    padding: 0 15%;
+/*    max-width: calc(15% + 166px);*/
+}
+
+
+
+/* Carousel is based off of: https://getbootstrap.com/docs/4.0/examples/carousel/
+-------------------------------------------------- */
+/* Since positioning the image, we need to help out the caption */
+.carousel {
+    margin-bottom: 3em;
+}
+.carousel-caption {
+  bottom: 3em;
+  z-index: 10;
+}
+
+.carousel-item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 200px;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item#img1 { background-image: url(../media/poster1.png); }
+.carousel-item#img2 { background-image: url(../media/poster2.png); }
+.carousel-item#img3 { background-image: url(../media/poster3.png); }
+
+@media (min-width: 576px) {
+    .carousel-item {
+        height: auto;
+        min-width: 0%;
+        min-height: 286px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        min-height: 388px;
+    }
+}
+
+
+@media (min-width: 992px) {
+   .carousel-item {
+        min-height: 525px;
+    } 
+}
+
+@media (min-width: 1200px) {
+    .carousel-item {
+        min-height: 625px;
+    }
+}
+
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25em;
+    font-size: 1.25em;
+    line-height: 1.4;
+  }
+}
+/* -------------------------------------------------- */
+
+.carousel-control-prev, .carousel-control-next,
+.carousel-control-prev:visited, .carousel-control-next:visited {
+    background-color: black;
+    opacity: 0.2;
+    width: 10%;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover, 
+.carousel-control-prev:active, .carousel-control-next:active,
+.carousel-control-prev:focus, .carousel-control-next:focus {
+    opacity: 0.3;
+}
+
+.carousel-caption p, .carousel-caption h1 {
+    color: #f2f2f2;
+    text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 577px) {
+    .carousel li {
+        display: none;
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+        background-color: transparent;
+        opacity: 0.8;
+        width: 15%;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 1.5em;
+    }
+    .carousel-caption{
+        bottom: 0em;
+    }
+    
+    .carousel-control-prev, .carousel-control-next,
+    .carousel-control-prev:visited, .carousel-control-next:visited {
+        opacity: 0.4;
+    }
+
+    .carousel-control-prev:hover, .carousel-control-next:hover, 
+    .carousel-control-prev:active, .carousel-control-next:active,
+    .carousel-control-prev:focus, .carousel-control-next:focus {
+        opacity: 0.7;
+    }
+}
+
+
+#desc p {
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+
+#desc .vid {
+    width: 100%;
+    background-color: #000;
+    height: 280px;
+}
+
+#desc .vid iframe {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 576px) {
+    #desc .vid {
+        height: 300px;    
+    }
+
+    #desc .vid iframe {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    #desc .vid {
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #desc .vid {
+        height: 400px;
+    } 
+}
+
+@media (min-width: 1200px) {
+    #desc .vid {
+        height: 500px;
+    }
+}
+
+#build {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#build h3 {
+    margin-bottom: 1em;
+}
+
+#build button {
+    width: 200px;
+    height: 50px;
+    
+    color:#1e1e1e;
+}
+
+#cred {
+    background-color: #323232;
+    padding: 2em 0;
+    box-shadow: 0px 0px 20px 10px rgba(1,1,1,0.5);
+    margin-bottom: 0;
+}
+
+#cred h2 {
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+#cred h2, #cred h5, #cred p {
+/*      color: #1e1e1e;  */
+}
+
+#cred a, #cred a:visited {
+    color: #75B580;
+}
+
+#cred a:hover, #cred a:active, #cred a:focus {
+    text-decoration: none;
+    color: #6E9375;
+}
+
+#cred-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.important-peeps {
+    justify-content: space-around !important;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.important-peeps h5{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+#cred-container figure {
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 991px) {
+    #cred h2 {
+        margin-bottom: 1em;
+    }
+    
+    .important-peeps {
+        font-size: 1em;
+    }
+    
+    .important-peeps h5{
+        font-size: 1.1em;
+    }
+    
+    #cred-container figure {
+        margin-bottom: 1.5em;
+    }
+}
+
+
+@media (max-width: 446px) {
+    #cred-container {
+        justify-content: space-around;
+    }
+    
+    #cred-container figure {
+        min-width: 0px;
+        text-align: center;
+        margin: .3em 5px;
+    }
+    
+    #cred-container h5 {
+        font-size:  1em;
+    }
+    
+    #cred-container p {
+        font-size:  1em;
+    }
+}
+
+@media (max-width: 346px) {
+    #cred-container h5 {
+        font-size:  .8em;
+    }
+    
+    #cred-container p {
+        font-size:  .8em;
+    }
+}
+
+#cred button {
+    display: block;
+    margin:0 auto 1em;
+    width: 200px;
+    height: 50px;
+    color:#1e1e1e;
+}
+
+#cred h4 {
+    text-align: center;
+}
+
+#cred hr {
+    margin-bottom: 2em;
+    border-color: #737373;
+}    
