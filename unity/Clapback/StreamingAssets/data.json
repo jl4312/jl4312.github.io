@@ -1,0 +1,1015 @@
+{
+    "data": {
+        "dateCreated": "4/3/2020",
+        "time": "11:33 PM",
+        "shipList": [
+ {
+   "key": "sp_001",
+   "id": 1,
+   "title": "Turbo",
+   "description": "3,2,1 blast off TURBO travel to the moon and back and always get the job done.",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "sp_002",
+   "id": 2,
+   "title": "Lancelot",
+   "description": "Are thou worthy? This mighty ship has long protected the planet of Camelot. It pierces through enemy ships with its mighty lance leaving destruction in its wake.  ",
+   "ability": "Clapback",
+   "abilityDescription": "Collides with enemy when they attack",
+   "cost": null
+ },
+ {
+   "key": "sp_004",
+   "id": 4,
+   "title": "Gummie",
+   "description": "An intimidating ship with its two side shooters. With its rounded structure, it allows it to move swiftly. Its nimbleness is key in its successful missions.",
+   "ability": "Shot",
+   "abilityDescription": "Shoots shots from both sides",
+   "cost": null
+ },
+ {
+   "key": "sp_006",
+   "id": 6,
+   "title": "Blaster",
+   "description": "Beware of BLASTER's cannon! It leaves a grand impact. Don't let its bulky appears to trick you it can move as fast as it leaves an impact.\n",
+   "ability": "Rocket Blaster",
+   "abilityDescription": "Shoots projectile that expand on impact in front of ship on click",
+   "cost": null
+ },
+ {
+   "key": "sp_007",
+   "id": 7,
+   "title": "Fox Fire",
+   "description": "Using its six tails FOX FIRE can quickly make turns and allows fast transitions between evading and attacking. It is said to bring misfortune to those who battle it.  ",
+   "ability": "Will O Wisp",
+   "abilityDescription": "6 WIll o wisp surrounds ship and destroy enemy on impact with it",
+   "cost": null
+ },
+ {
+   "key": "sp_008",
+   "id": 8,
+   "title": "Static Shock ",
+   "description": "A retro ship that leaves a shocking experience when it blasts through its enemies. Using its four front discharge spikes it able to blast electricity in front of it.",
+   "ability": "Lighting",
+   "abilityDescription": "Shoots 4 electric beams forward",
+   "cost": null
+ },
+ {
+   "key": "sp_009",
+   "id": 9,
+   "title": "Swallowtail",
+   "description": "SWALLOWTAIL is known for its swift curve movement that it leaves a backdraft trail. It slides through space like a swallow flying through a field catching its prey. ",
+   "ability": "Wide Shot",
+   "abilityDescription": "Shoots a wide shot straight",
+   "cost": null
+ },
+ {
+   "key": "sp_010",
+   "id": 10,
+   "title": "Sharkgo",
+   "description": "SHARKGO is a bulky ship although big can shoot powerful torpedos that explodes on impact. Its fivious appearance its true is not to be understimated. ",
+   "ability": "Torpedo",
+   "abilityDescription": "Shoots a torpedo straight and explodes on impact",
+   "cost": null
+ },
+ {
+   "key": "sp_011",
+   "id": 11,
+   "title": "Stinger",
+   "description": "From its peak, it shoots purple lasers that can pierce through the enemy ships. It pounces it enemies leaving them little time to react.",
+   "ability": "Stinger",
+   "abilityDescription": "Releases 3 stingers that seeks enemies",
+   "cost": null
+ },
+ {
+   "key": "sp_012",
+   "id": 12,
+   "title": "Sonicboom",
+   "description": "SONICBOOM uses sound waves to move and the sounds it produces provides enemy a trumpet countdown to their doom. ",
+   "ability": "Sonic Boom",
+   "abilityDescription": "Destroy enemy in a radius",
+   "cost": null
+ },
+ {
+   "key": "sp_013",
+   "id": 13,
+   "title": "Symphony",
+   "description": "This music shape fun loving ship leaves a long trail of musical notes.",
+   "ability": "Musical Bombs",
+   "abilityDescription": "Leaves behind a musical note that explodes on impact",
+   "cost": null
+ },
+ {
+   "key": "sp_015",
+   "id": 15,
+   "title": "Sun Lion",
+   "description": "Beware of its spike as they are sharp as a needles. It can tackle through enemy ships with ease. It know as the King of Ships.\n",
+   "ability": "Spike Shot",
+   "abilityDescription": "Shoots 7 spike shots targets the nearest enemies",
+   "cost": null
+ },
+ {
+   "key": "sp_020",
+   "id": 20,
+   "title": "Hoverdash",
+   "description": "A ship that can glide through the battlefield. Its smooth movement allows it to avoid enemies while collecting orbs.",
+   "ability": "Hover",
+   "abilityDescription": "Passive: speed increases when moving straight",
+   "cost": 0
+ },
+ {
+   "key": "sp_021",
+   "id": 21,
+   "title": "Carrotido",
+   "description": "Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
+   "ability": "Spiral Shot",
+   "abilityDescription": "Spins and shoots forward destroy its enemies",
+   "cost": null
+ },
+ {
+   "key": "sp_031",
+   "id": 31,
+   "title": "Skull Cannon",
+   "description": "The bringer of death the Skull Cannon is equiped with a extremely strong cannon it slaughters all those caught within in blast.",
+   "ability": "Death Cannon",
+   "abilityDescription": "Shoots a death ray forward",
+   "cost": null
+ },
+ {
+   "key": "sp_036",
+   "id": 36,
+   "title": "Rainbow Dash",
+   "description": "RAINBOW DASH shoots of seven different colors trail. Its beauty is awe-inspiring when it moves through the battefield.\n",
+   "ability": "Rainbow shot",
+   "abilityDescription": "Shoots a rainbow beam in an angle",
+   "cost": null
+ },
+ {
+   "key": "sp_048",
+   "id": 48,
+   "title": "Blitz Racer",
+   "description": "As it moves along the ground it leaves burn marks. The swift movements disorients its enemies. 1,2,3, Ready, Get Set, Go!",
+   "ability": "Speed Boost",
+   "abilityDescription": "Boost speed when clicked",
+   "cost": null
+ },
+ {
+   "key": "sp_066",
+   "id": 66,
+   "title": "Black Cat",
+   "description": "A ship that bring bad luck to its enemies. It never goes through its nine lives as its foes are destroyed before then. ",
+   "ability": "9 Lives",
+   "abilityDescription": "Passive: start round with 9 lives",
+   "cost": 0
+ },
+ {
+   "key": "sp_074",
+   "id": 74,
+   "title": "Cubix",
+   "description": "CUBIX is a constantly changing its color. It has 43 quintillion combination that leaves the viewers confused by its sequences. ",
+   "ability": "Spin",
+   "abilityDescription": "Spins around like a top and destroy enemy that collide with it",
+   "cost": null
+ },
+ {
+   "key": "sp_077",
+   "id": 77,
+   "title": "White Rabbit",
+   "description": "A bringer of good luck this white ship hops through the battle field avoiding enemy ships while it collects orbs. It loves CARROTIDOs. ",
+   "ability": "Good Luck",
+   "abilityDescription": "Teleport when its about to die if energy is filled",
+   "cost": null
+ },
+ {
+   "key": "sp_082",
+   "id": 82,
+   "title": "Neoncycle",
+   "description": "This cycle shaped ship leaves a neon trail that illuminates where it has been. Its bright as it is fast.\n",
+   "ability": "Trail",
+   "abilityDescription": "Passive: Destroy enemy that collides with the trial",
+   "cost": 0
+ },
+ {
+   "key": "en_01",
+   "id": 1,
+   "title": "Cannon",
+   "description": "A static ship that shoots projectiles at its nearest enemies.\n",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_02",
+   "id": 2,
+   "title": "Seeker",
+   "description": "This ship constantly seeks its enemies never stopping til it makes contact. ",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_03",
+   "id": 3,
+   "title": "Spinning Top",
+   "description": "Spin, spin, spin this ship spins so fast that its unable to control where it goes...",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_04",
+   "id": 4,
+   "title": "Laser",
+   "description": "A powerful ship that shoots a laser that destroys a large number of ship on moment of contact.",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_05",
+   "id": 5,
+   "title": "Bomber",
+   "description": "This mad BOMBER leaves explosive barrels that explodes on contact. ",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_06",
+   "id": 6,
+   "title": "Spider",
+   "description": "This evasive ship shoots web bullets that slow down ships. It makes manuever very difficult for its enemies.\n",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ },
+ {
+   "key": "en_07",
+   "id": 7,
+   "title": "Tarantula",
+   "description": "This evasive ship shoots web bullets that slow down ships. It makes manuever very difficult for its enemies.\n",
+   "ability": "",
+   "abilityDescription": "",
+   "cost": null
+ }
+],
+"teirLevelList": [
+ {
+   "teir": 1,
+   "scoreRequirement": "9",
+   "code": "C00100000000000"
+ },
+ {
+   "teir": 2,
+   "scoreRequirement": "25",
+   "code": "C00200000000000"
+ },
+ {
+   "teir": 3,
+   "scoreRequirement": "57",
+   "code": "C00200000000000"
+ },
+ {
+   "teir": 4,
+   "scoreRequirement": "93",
+   "code": "C01200000000000"
+ },
+ {
+   "teir": 5,
+   "scoreRequirement": "142",
+   "code": "C01200000000000"
+ },
+ {
+   "teir": 6,
+   "scoreRequirement": "197",
+   "code": "C01200000000000"
+ },
+ {
+   "teir": 7,
+   "scoreRequirement": "281",
+   "code": "C01300010000000"
+ },
+ {
+   "teir": 8,
+   "scoreRequirement": "374",
+   "code": "C01200010000000"
+ },
+ {
+   "teir": 9,
+   "scoreRequirement": "467",
+   "code": "C01200000000000"
+ },
+ {
+   "teir": 10,
+   "scoreRequirement": "564",
+   "code": "C01010000000000"
+ },
+ {
+   "teir": 11,
+   "scoreRequirement": "670",
+   "code": "C00020000000000"
+ },
+ {
+   "teir": 12,
+   "scoreRequirement": "787",
+   "code": "C00020000000000"
+ },
+ {
+   "teir": 13,
+   "scoreRequirement": "966",
+   "code": "C00030000000000"
+ },
+ {
+   "teir": 14,
+   "scoreRequirement": "1,187",
+   "code": "C01030010000000"
+ },
+ {
+   "teir": 15,
+   "scoreRequirement": "1,446",
+   "code": "C00120010000000"
+ },
+ {
+   "teir": 16,
+   "scoreRequirement": "1,706",
+   "code": "C01110010000000"
+ },
+ {
+   "teir": 17,
+   "scoreRequirement": "1,991",
+   "code": "C01110010000000"
+ },
+ {
+   "teir": 18,
+   "scoreRequirement": "2,320",
+   "code": "C00220000000000"
+ },
+ {
+   "teir": 19,
+   "scoreRequirement": "2,707",
+   "code": "C01220000000000"
+ },
+ {
+   "teir": 20,
+   "scoreRequirement": "3,148",
+   "code": "C01320000000000"
+ },
+ {
+   "teir": 21,
+   "scoreRequirement": "3,538",
+   "code": "C00001000000000"
+ },
+ {
+   "teir": 22,
+   "scoreRequirement": "3,967",
+   "code": "C00001000000000"
+ },
+ {
+   "teir": 23,
+   "scoreRequirement": "4,438",
+   "code": "C00001000000000"
+ },
+ {
+   "teir": 24,
+   "scoreRequirement": "4,972",
+   "code": "C00101000000000"
+ },
+ {
+   "teir": 25,
+   "scoreRequirement": "5,559",
+   "code": "C00101000000000"
+ },
+ {
+   "teir": 26,
+   "scoreRequirement": "6,220",
+   "code": "C00201000000000"
+ },
+ {
+   "teir": 27,
+   "scoreRequirement": "6,962",
+   "code": "C00301000000000"
+ },
+ {
+   "teir": 28,
+   "scoreRequirement": "7,773",
+   "code": "C00101010000000"
+ },
+ {
+   "teir": 29,
+   "scoreRequirement": "8,691",
+   "code": "C01101010000000"
+ },
+ {
+   "teir": 30,
+   "scoreRequirement": "9,750",
+   "code": "C00102010000000"
+ },
+ {
+   "teir": 31,
+   "scoreRequirement": "10,905",
+   "code": "C00202000000000"
+ },
+ {
+   "teir": 32,
+   "scoreRequirement": "12,175",
+   "code": "C00202000000000"
+ },
+ {
+   "teir": 33,
+   "scoreRequirement": "13,593",
+   "code": "C00002020000000"
+ },
+ {
+   "teir": 34,
+   "scoreRequirement": "15,167",
+   "code": "C00102020000000"
+ },
+ {
+   "teir": 35,
+   "scoreRequirement": "16,974",
+   "code": "C00103020000000"
+ },
+ {
+   "teir": 36,
+   "scoreRequirement": "18,726",
+   "code": "C00200010000000"
+ },
+ {
+   "teir": 37,
+   "scoreRequirement": "20,679",
+   "code": "C00200020000000"
+ },
+ {
+   "teir": 38,
+   "scoreRequirement": "22,852",
+   "code": "C00200030000000"
+ },
+ {
+   "teir": 39,
+   "scoreRequirement": "25,257",
+   "code": "C00300030000000"
+ },
+ {
+   "teir": 40,
+   "scoreRequirement": "27,913",
+   "code": "C00300021000000"
+ },
+ {
+   "teir": 41,
+   "scoreRequirement": "30,799",
+   "code": "C00300020000000"
+ },
+ {
+   "teir": 42,
+   "scoreRequirement": "34,019",
+   "code": "C01210001000000"
+ },
+ {
+   "teir": 43,
+   "scoreRequirement": "37,596",
+   "code": "C01120001000000"
+ },
+ {
+   "teir": 44,
+   "scoreRequirement": "41,580",
+   "code": "C01130001000000"
+ },
+ {
+   "teir": 45,
+   "scoreRequirement": "45,988",
+   "code": "C02130001000000"
+ },
+ {
+   "teir": 46,
+   "scoreRequirement": "50,732",
+   "code": "C00300100000000"
+ },
+ {
+   "teir": 47,
+   "scoreRequirement": "56,081",
+   "code": "C00030110000000"
+ },
+ {
+   "teir": 48,
+   "scoreRequirement": "61,989",
+   "code": "C01002110000000"
+ },
+ {
+   "teir": 49,
+   "scoreRequirement": "68,562",
+   "code": "C01003110000000"
+ },
+ {
+   "teir": 50,
+   "scoreRequirement": "75,819",
+   "code": "C01003120000000"
+ },
+ {
+   "teir": 51,
+   "scoreRequirement": "83,541",
+   "code": "C01200021000000"
+ },
+ {
+   "teir": 52,
+   "scoreRequirement": "92,060",
+   "code": "C01200031000000"
+ },
+ {
+   "teir": 53,
+   "scoreRequirement": "101,446",
+   "code": "C01300031000000"
+ },
+ {
+   "teir": 54,
+   "scoreRequirement": "111,770",
+   "code": "C01300031000000"
+ },
+ {
+   "teir": 55,
+   "scoreRequirement": "123,152",
+   "code": "C01300041000000"
+ },
+ {
+   "teir": 56,
+   "scoreRequirement": "135,612",
+   "code": "C00300100000000"
+ },
+ {
+   "teir": 57,
+   "scoreRequirement": "149,304",
+   "code": "C00200100000000"
+ },
+ {
+   "teir": 58,
+   "scoreRequirement": "164,449",
+   "code": "C00100200000000"
+ },
+ {
+   "teir": 59,
+   "scoreRequirement": "181,109",
+   "code": "C00100200000000"
+ },
+ {
+   "teir": 60,
+   "scoreRequirement": "199,555",
+   "code": "C00000301000000"
+ },
+ {
+   "teir": 61,
+   "scoreRequirement": "219,640",
+   "code": "C01300011000000"
+ },
+ {
+   "teir": 62,
+   "scoreRequirement": "241,734",
+   "code": "C01300011000000"
+ },
+ {
+   "teir": 63,
+   "scoreRequirement": "266,063",
+   "code": "C01300021000000"
+ },
+ {
+   "teir": 64,
+   "scoreRequirement": "292,824",
+   "code": "C01300021000000"
+ },
+ {
+   "teir": 65,
+   "scoreRequirement": "322,286",
+   "code": "C02300021000000"
+ },
+ {
+   "teir": 66,
+   "scoreRequirement": "354,775",
+   "code": "C01030021000000"
+ },
+ {
+   "teir": 67,
+   "scoreRequirement": "390,588",
+   "code": "C01003021000000"
+ },
+ {
+   "teir": 68,
+   "scoreRequirement": "430,056",
+   "code": "C01000321000000"
+ },
+ {
+   "teir": 69,
+   "scoreRequirement": "473,172",
+   "code": "C01000021000000"
+ },
+ {
+   "teir": 70,
+   "scoreRequirement": "520,599",
+   "code": "C01000021000000"
+ },
+ {
+   "teir": 71,
+   "scoreRequirement": "572,719",
+   "code": "C01000001000000"
+ },
+ {
+   "teir": 72,
+   "scoreRequirement": "630,051",
+   "code": "C01000001000000"
+ },
+ {
+   "teir": 73,
+   "scoreRequirement": "693,116",
+   "code": "C01000001000000"
+ },
+ {
+   "teir": 74,
+   "scoreRequirement": "762,488",
+   "code": "C01000001000000"
+ },
+ {
+   "teir": 75,
+   "scoreRequirement": "838,796",
+   "code": "C01000001000000"
+ },
+ {
+   "teir": 76,
+   "scoreRequirement": "923,001",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 77,
+   "scoreRequirement": "1,015,626",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 78,
+   "scoreRequirement": "1,117,514",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 79,
+   "scoreRequirement": "1,229,590",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 80,
+   "scoreRequirement": "1,352,874",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 81,
+   "scoreRequirement": "1,488,487",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 82,
+   "scoreRequirement": "1,637,660",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 83,
+   "scoreRequirement": "1,801,751",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 84,
+   "scoreRequirement": "1,982,251",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 85,
+   "scoreRequirement": "2,180,801",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 86,
+   "scoreRequirement": "2,399,207",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 87,
+   "scoreRequirement": "2,639,452",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 88,
+   "scoreRequirement": "2,903,723",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 89,
+   "scoreRequirement": "3,194,420",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 90,
+   "scoreRequirement": "3,514,187",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 91,
+   "scoreRequirement": "3,865,930",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 92,
+   "scoreRequirement": "4,252,848",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 93,
+   "scoreRequirement": "4,678,458",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 94,
+   "scoreRequirement": "5,146,629",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 95,
+   "scoreRequirement": "5,661,617",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 96,
+   "scoreRequirement": "6,228,104",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 97,
+   "scoreRequirement": "6,851,239",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 98,
+   "scoreRequirement": "7,536,688",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 99,
+   "scoreRequirement": "8,290,682",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 100,
+   "scoreRequirement": "9,120,075",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 101,
+   "scoreRequirement": "10,032,407",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 102,
+   "scoreRequirement": "11,035,973",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 103,
+   "scoreRequirement": "12,139,896",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 104,
+   "scoreRequirement": "13,354,210",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 105,
+   "scoreRequirement": "14,689,956",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 106,
+   "scoreRequirement": "16,159,277",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 107,
+   "scoreRequirement": "17,775,529",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 108,
+   "scoreRequirement": "19,553,407",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 109,
+   "scoreRequirement": "21,509,073",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 110,
+   "scoreRequirement": "23,660,305",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 111,
+   "scoreRequirement": "26,026,661",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 112,
+   "scoreRequirement": "28,629,652",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 113,
+   "scoreRequirement": "31,492,942",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 114,
+   "scoreRequirement": "34,642,561",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 115,
+   "scoreRequirement": "38,107,143",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 116,
+   "scoreRequirement": "41,918,182",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 117,
+   "scoreRequirement": "46,110,325",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 118,
+   "scoreRequirement": "50,721,683",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 119,
+   "scoreRequirement": "55,794,176",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 120,
+   "scoreRequirement": "61,373,918",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 121,
+   "scoreRequirement": "67,511,635",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 122,
+   "scoreRequirement": "74,263,124",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 123,
+   "scoreRequirement": "81,689,761",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 124,
+   "scoreRequirement": "89,859,062",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 125,
+   "scoreRequirement": "98,845,294",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 126,
+   "scoreRequirement": "108,730,148",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 127,
+   "scoreRequirement": "119,603,488",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 128,
+   "scoreRequirement": "131,564,162",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 129,
+   "scoreRequirement": "144,720,903",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 130,
+   "scoreRequirement": "159,193,318",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 131,
+   "scoreRequirement": "175,112,975",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 132,
+   "scoreRequirement": "192,624,597",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 133,
+   "scoreRequirement": "211,887,382",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 134,
+   "scoreRequirement": "233,076,445",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 135,
+   "scoreRequirement": "256,384,415",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 136,
+   "scoreRequirement": "282,023,181",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 137,
+   "scoreRequirement": "310,225,824",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 138,
+   "scoreRequirement": "341,248,732",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 139,
+   "scoreRequirement": "375,373,930",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 140,
+   "scoreRequirement": "412,911,648",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 141,
+   "scoreRequirement": "454,203,137",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 142,
+   "scoreRequirement": "499,623,776",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 143,
+   "scoreRequirement": "549,586,479",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 144,
+   "scoreRequirement": "604,545,452",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 145,
+   "scoreRequirement": "665,000,322",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 146,
+   "scoreRequirement": "731,500,679",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 147,
+   "scoreRequirement": "804,651,072",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 148,
+   "scoreRequirement": "885,116,504",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 149,
+   "scoreRequirement": "973,628,480",
+   "code": "C01111111000000"
+ },
+ {
+   "teir": 150,
+   "scoreRequirement": "1,070,991,328",
+   "code": "C01111111000000"
+ }
+]
+,
+        "missionList": []
+		
+    }
+}

@@ -36,7 +36,7 @@
 			case 3:
 				projectName.textContent = "Project Orion: ChiaroScuro";
 				break;
-				case 4:
+			case 4:
 				projectName.textContent = "Flicker Fortress";
 				break;
 			default:
@@ -67,7 +67,7 @@
 	
 	function reset(){
 	
-		for(var i = 1; i < 4; i++)
+		for(var i = 1; i < 5; i++)
 		{
 			tmp = document.getElementById(i);
 			tmp.style.display = "none";

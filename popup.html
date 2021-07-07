@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    // This will now work as the element referenced must already be loaded
+		$('#project1').load("projectDesc1.html");
+		$('#project2').load("projectDesc2.html");
+		$('#project3').load("projectDesc3.html");
+		$('#project4').load("projectDesc4.html");
+</script>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 id="projectName">VRsus guARdian</h3>
+	  <span class="close" style="background-color: red"><p>&times;</p></span>
+    </div>
+	<div id="project1"></div>
+	<div id="project2"></div>
+	<div id="project3"></div>
+	<div id="project4"></div>
+	
+</div>
+<script>
+	// Get the modal
+	
+	var span = document.getElementsByClassName("close")[0];
+
+	
+	span.onclick = function() {
+		modal = document.getElementById('myModal');
+		modal.style.display = "none";
+		reset();
+		console.log("close");
+	}
+	</script>
