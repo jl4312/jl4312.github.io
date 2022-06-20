@@ -286,7 +286,7 @@ section {
 
 /* Declare heights because of positioning of img element */
 
-/*.carousel-item#img1 { background-image: url(../media/img1.png); }*/
+.carousel-item#img1 { background-image: url(../media/flickerFortress.gif); }
 .carousel-item#img2 { background-image: url(../media/clapback.gif); }
 .carousel-item#img3 { background-image: url(../media/img3.png); }
 .carousel-item#img4 { background-image: url(../media/img4.png); }
