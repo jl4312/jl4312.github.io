@@ -39,6 +39,9 @@
 			case 4:
 				projectName.textContent = "Flicker Fortress";
 				break;
+			case 5:
+				projectName.textContent = "The Light Within";
+				break;
 			default:
 				break;
 		}
