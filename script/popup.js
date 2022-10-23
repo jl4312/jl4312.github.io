@@ -17,6 +17,7 @@
 		modal = document.getElementById('myModal');
 		span = document.getElementsByClassName("close")[0];
 		console.log("working");
+		
 	}
 	// When the user clicks the button, open the modal 
 	function test(parameter) {
@@ -69,8 +70,8 @@
 	}
 	
 	function reset(){
-	
-		for(var i = 1; i < 5; i++)
+		//need to update count for all pages
+		for(var i = 1; i < 6; i++)
 		{
 			tmp = document.getElementById(i);
 			tmp.style.display = "none";
