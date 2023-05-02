@@ -69,12 +69,15 @@ header#build h1{
 
 .navigation{
 	position: fixed;
-	padding-top: .5em;
-	padding-bottom: .5em;
+	
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	width: 100%;
 	
 	text-align: right;
-	background-image: linear-gradient(black, rgba(10, 10, 10, .1)); 
+	background-image: linear-gradient(black, black, rgba(10, 10, 10, .1)); 
 	z-index: 1;
 }
 
@@ -158,7 +161,7 @@ h3{
 }
 
 .clickableIcon{
-	padding: .25em;
+	padding: .5em;
 	transition: 0.3s ease;
 	cursor: pointer;
 	opacity: .3;

@@ -70,7 +70,8 @@
 
 
 .modal-body {
-	padding: 2px 16px;
+	padding: 0px 30px;
+	padding-bottom: 2em;
 	margin: 0 1% 0;}
 
 .modal-footer {
