@@ -74,6 +74,7 @@
 		for(var i = 1; i < 6; i++)
 		{
 			tmp = document.getElementById(i);
+						
 			tmp.style.display = "none";
 		}
 	

@@ -22,9 +22,9 @@ img:active{
   -o-transition: all .3s ease-in;
   transition: all .3s ease-in;
   opacity: 1;
-  transform: scale(1.15);
-  -ms-transform: scale(1.15); /* IE 9 */
-  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  transform: scale(1.05);
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari and Chrome */
 
 }
 
@@ -154,7 +154,7 @@ h3{
 #contactMe{
 	background-color: #323232;
 	text-align: center;
-	padding: 1em 0 .5em 0;
+	padding: 1em 0 1em 0;
 }
 
 .clickableIcon{
