@@ -48,8 +48,8 @@
     color: rgba(1, 1, 1, .4);
     float: right;
 	
-    font-size: 50px;
     font-weight: bold;
+
 }
 
 .close:hover,
@@ -63,8 +63,10 @@
     background-color: #323232;
 	width: 100%;
 	border-radius: 15px 15px 0px 0px;
-	padding-left: 2em;
+	padding-left: 3em;
+	padding-right: 2.5em;
 	padding-top: 1em;
+	height: 4.5em;
 }
 
 
@@ -93,10 +95,7 @@
 	margin-top: 2em;
 }
 
-.centerGroup{
 
-	
-}
 
 .thumbNail{
 		width: 12%;
