@@ -133,7 +133,7 @@ h3{
 	
 }
 .aboutMe h6{
-	padding: 1em;
+	padding-top: 1em;
 	
 }
 
@@ -143,6 +143,7 @@ h3{
 }
 .aboutMe img{
 	display: relative;
+	text-align: center;
 	width: 60%;
 }
 
