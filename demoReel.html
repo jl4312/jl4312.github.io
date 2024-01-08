@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <!-- jQuery & BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="script/popup.js">setup();</script>
+
+	<!--Stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/popup.css">
+	<link rel="stylesheet" href="stylesheets/lightbox.css">
+	<script src="script/lightbox-plus-jquery.min.js"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous">
+	</script>
+	<script> 
+	$(function(){
+		$("#header").load("header.html"); 
+		$("#footer").load("footer.html"); 
+		$("#skills").load("skills.html"); 
+		$("#projectThumbnail").load("projectThumbnail.html");
+		$("#popup").load("popup.html");
+
+	});
+	</script> 
+    <title>Joseph Lu's Projects</title>
+</head>
+<body>
+<main role="main">
+	<div id="header"></div> 	<div><p></p></div>
+    <div class="container" style="text-align: center">	
+	
+        <video text-align: center; width="960" controls>
+		  <source src="media/DemoReel.mp4" type="video/mp4">
+		 
+		Your browser does not support the video tag.
+		</video>
+	
+    </div>
+	<div><p></p></div>
+	<div id="footer"></div> 
+</main>
+	<div id="popup"></div>
+</body>
+</html>

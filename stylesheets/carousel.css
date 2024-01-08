@@ -22,6 +22,9 @@ div.carousel{
 	padding-right:4.75%;
 	
 }
+.carousel-inner {
+      height: 500px; /* Set the height of the slides */
+    }
 .carousel-caption {
 	
   bottom: 1.5em;
