@@ -35,7 +35,7 @@
 				projectName.textContent = "VRsus guARdian";
 				break;
 			case 3:
-				projectName.textContent = "Project Orion: ChiaroScuro";
+				projectName.textContent = "To Carry a Sword";
 				break;
 			case 4:
 				projectName.textContent = "Flicker Fortress";
@@ -43,6 +43,7 @@
 			case 5:
 				projectName.textContent = "The Light Within";
 				break;
+			
 			default:
 				break;
 		}
