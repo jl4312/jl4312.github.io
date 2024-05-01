@@ -4,35 +4,37 @@
 	
 </head>
 <div class="navigation">
-		<h2><a href="index.html"><strong>Joseph Lu</strong></a>
-		
-		</h2>
-		
-		<nav >
-			<a class="clickableIcon" href="mailto:13josephlu@gmail.com" target="blank"><img style="width: 1.5em;" src="media/mailIcon.png"></a></li>
-		
-			<a class="clickableIcon" href="https://www.linkedin.com/in/jl4312/" target="blank"><img style="width: 1.5em; margin-right:auto"  src="media/linkedInIcon.png"></a></li>
-			
-			<a href="about.html">
-				<button type="button" class="btn" style="font-weight:bold;">About</button>
+	<div>
+
+		<h4 style="padding-left: 20px; padding-top: 10px"><a href="index.html"><strong>Joseph Lu</strong></a></h4>
+	</div>
+		<div class="topnav" id="myTopnav">
+		<div>
+			<b>
+			<a href=""></a>
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="projects.html">Projects</a>
+			<a href="demoReel.html">Demo Reel</a>
+			<a href="https://www.artstation.com/jl4312" target="_blank">Artstation</a>
+			<a href="media/resumeFiles/Lu_resume.pdf"target="_blank">Resume</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<img src="media/menu.png" width=30px style="padding: 0">
 			</a>
-					
-			<a href="projects.html">
-				<button type="button" class="btn" style="font-weight:bold;">Projects</button>
-			</a>
-			
-			<a href="demoReel.html">
-				<button type="button" class="btn" style="font-weight:bold;">Demo Reel</button>
-			</a>
-					
-			<a href="https://www.artstation.com/jl4312" target="_blank">
-				<button type="button" class="btn" style="font-weight:bold;">Artstation</button>
-			</a>
-			
-			<a href="media/resumeFiles/Lu_resume.pdf" target="_blank">
-				<button type="button" class="btn" style="font-weight:bold;">Resume</button>
-			</a>
-					
-		</nav>
+			</b>
+			</div>
+		</div>
 	</div>
 	</br></br></br>
+	
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+		
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+</script>

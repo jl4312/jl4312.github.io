@@ -25,7 +25,6 @@ img:active{
   transform: scale(1.05);
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari and Chrome */
-
 }
 
 a{
@@ -63,29 +62,6 @@ header#build img {
 
 header#build h1{
     font-size: 1.5em;
-}
-
-
-
-.navigation{
-	position: fixed;
-	
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	width: 100%;
-	
-	text-align: right;
-	background-image: linear-gradient(black, black, rgba(10, 10, 10, .75)); 
-	z-index: 1;
-}
-
-.navigation h2{
-	
-	position: fixed;
-	padding-left: 5%;
-
 }
 
 .buttonLink{
@@ -459,33 +435,6 @@ section {
     .cred-container p {
         font-size:  .8em;
     }
-}
-
-nav button{
-	display: block;
-    margin: 5 em 0 em 0 em 1 em;
-
-    width: 100px;
-    height: 35px;
-    color: white;
-	font-weight: bold;
-	background-color: transparent;
-	
-	
-}
-
-nav #active button{
-	background-color: rgba(150, 150, 150, .5);
-	
-}
-
-nav button:hover{
-	background-color: rgba(100, 100, 100, .5);
-	
-}
-
-nav button:active{
-	background-color: rgba(150, 150, 150, .3);
 }
 
 .buttonLink
