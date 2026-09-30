@@ -1,0 +1,5 @@
+# Local-only files that should not go on the website
+_to_delete/
+tools/
+*.psd
+media/lightWithinBanner.png

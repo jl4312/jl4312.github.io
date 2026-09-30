@@ -4,223 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
+
     <!-- jQuery & BootStrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Site content: edit the files in the data/ folder -->
+	<script src="data/about.js"></script>
+	<script src="data/experience.js"></script>
+	<script src="data/skills.js"></script>
+	<script src="data/projects.js"></script>
+	<script src="data/artwork.js"></script>
 	<script src="script/popup.js"></script>
+	<script src="script/site.js"></script>
+	<script src="script/lightbox.min.js"></script>
     <!--Stylesheets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/popup.css">
-	<link rel="stylesheet" href="stylesheets/menu.css">
-		<script
-		src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-		crossorigin="anonymous">
-	</script>
-	<script> 
+	<link rel="stylesheet" href="stylesheets/lightbox.css">
+	<link rel="stylesheet" href="stylesheets/site.css">
+	<script>
 	$(function(){
-		$("#header").load("header.html"); 
-		$("#footer").load("footer.html"); 
-		$("#skills").load("skills.html"); 
-		$("#projectThumbnail").load("projectThumbnail.html");
+		$("#header").load("header.html", siteNav);
+		$("#menu").load("menu.html", siteNav);
+		$("#footer").load("footer.html");
 		$("#popup").load("popup.html");
-		$("#aboutMe").load("aboutMe.html");
 	});
-	</script> 
-    <title>Joseph Lu's About</title>
+	</script>
+
+    <meta name="description" content="Portfolio of Joseph Lu, a technical artist and Unity developer: environments, shaders, lighting, XR and gameplay for mobile, PC and Meta Quest 3.">
+    <title>About | Joseph Lu</title>
 </head>
-<body>
+<body data-page="about">
 <main role="main">
-	<div id="header"></div> 
-	<div>
-	
-    <div class="container"><section class="desc">
-        <div id="aboutMe"></div> 
+	<div id="header"></div>
+	<div class="site-wrap">
+		<section class="about-intro">
+			<figure class="about-portrait" data-about="portrait"></figure>
+			<div class="about-text">
+				<h1 data-about="heading">About Me</h1>
+				<div data-about="paragraphs"></div>
+				<div class="about-actions">
+					<a class="btn-accent" href="media/resumeFiles/Lu_resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+					<a class="icon-btn js-email" href="#" data-e="moc.liamg@ulhpesoj31" aria-label="Email me" title="Email me"><img src="media/mailIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://www.linkedin.com/in/jl4312/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><img src="media/linkedInIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://www.artstation.com/jl4312" target="_blank" rel="noopener" aria-label="ArtStation" title="ArtStation"><img src="media/artstationIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://github.com/jl4312" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><img src="media/githubIcon.png" alt=""></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-grid">
+			<div>
+				<h2>Experience</h2>
+				<ol class="xp-list about-xp" data-experience="full"></ol>
+			</div>
+			<aside class="skills" aria-label="Skills">
+				<h2>Skills</h2>
+				<div data-skills="panels"></div>
+			</aside>
+		</section>
+
+		<section class="about-edu">
+			<h2>Education</h2>
+			<div data-about="education"></div>
 		</section>
 	</div>
-	</div>
-	
-	 <div class="container">
-       
-		<div  class="clear" style="background-color: #323232; padding: .2em; border-radius: 25px"></div>
-			</br>
-			<h3>Education:</h3>
-			<div class="education">
-				<div class="left">
-					<p style="text-indent: 2em;">
-					
-					
-						<b>Rochester Institute of Technology (RIT)</b>, Rochester, NY 
-						</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						Bachelor of Science in Game Design and Development
-						</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						Minor in Modern Languages: Chinese
-					
-					</p>
-				</div>
-				
-				<div class="right">
-					<p>
-						May 2018
-						</br>GPA: 3.89/4.00
-						</br>Summa cum Laude
-					</p>
-				</div>
-			</div><!--
-			<h3 class="clear">Honors:</h3>
-			<div class="education">
-				
-			
-				<div class="left">
-					<p style="text-indent: 2em;" >
-					RIT Honors Program
-					</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					Dean's List
-					</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					RIT Outstanding Scholars Award
-					</p>
-				</div>
-				<div class="right">
-					<p>
-						Aug. 2014 - May 2018
-						</br>
-						</br>2016 - 2017
-					</p>
-				</div>
-			</div>
-			-->
-			<div id="skills"></div> 
-			
-			</br>
-			
-    </div>
-	
-	
-    <section class="cred">
-        <div class="container">
-            <h3>Work Experience</h3>
-			<a href="https://envision-is.com/"target="_blank"><img class="left" style="margin: 0 1em 0; width: 25%; padding:1em" src="media/envisionIS.png"></a>
-            <div style="margin-left: 25%; padding-left: 5%;">
-				<a><h4 style="text-align: left"><b>Department of Defense</b></h4></a><p style="float:right">November 2024 - Present</p>
-				<p >Unity Developer
-					</br>
-				</p>
-				<ul style="padding-left: 1em">
-					<p>
-					Develop Unity XR applications for the Meta Quest 3 across diverse clients, including military and educational institutions. 
-					Translate client requirements into immersive VR/MR experiences, implementing VR input systems, hand-tracked interactions, locomotion, and interactive mechanics. 
-					Manage large-scale asset pipelines using Addressables, optimize scenes, and create high-performance Shader Graph materials for runtime efficiency. 
-					Lead UI development, feature implementation, and client collaboration, delivering polished, production-ready XR solutions under tight deadlines.
-		
-					</p>
-				</ul>
-				
-			</div>
-			
-			<div  class="clear" style="background-color: #1e1e1e; padding: .2em; border-radius: 25px"></div>
-			</br>
-			<a href="https://pomsky.games" target="_blank"><img class="left" style="margin: 0 1em 0; width: 25%; padding: 1em"src="https://static.tildacdn.com/tild3361-6638-4863-b566-616435643538/logo-Pomsky-v4.png"></a>
-            <div style="margin-left: 25%; padding-left: 5%;">
-				<a href="https://pomsky.games" target="_blank"><h4 style="text-align: left"><b>Pomsky Games</b></h4></a><p style="float:right">June 2022 - Present</p>
-				<p >Freelance Technical Artist
-					</br>
-				</p>
-				<ul style="padding-left: 1em">
-					<p>As a freelance Technical Artist & Unity Developer on The Light Within, I take an active role across art and development, contributing to both the look and functionality of the game. 
-					My workflow begins with collaborating closely with concept artists, designers, and 3D artists, planning the layout and composition of each scene.
-
-					</br></br>
-					I then implement the environment in Unity, integrating assets, lighting, and technical art elements such as custom shaders to achieve the desired visual style and performance. 
-					On the gameplay side, I design and implement puzzle mechanics, integrate them into Unity, and perform bug fixing and optimization to ensure a smooth player experience.
-					
-					</br></br>
-					This role allows me to bridge art, technical systems, and gameplay development, delivering immersive environments that are both visually striking and functionally engaging.
-					
-					</br></br>
-					If you're interested in seeing the results of my work, feel free to check out <a onclick="test(5)"><i>The Light Within</i></a>.    
-					
-					</p>
-				</ul>
-				</br>
-			</div>
-				<div  class="clear" style="background-color: #1e1e1e; padding: .2em; border-radius: 25px"></div>	</br>
-				
-			<a href="https://cascom.army.mil/asrp/"target="_blank"><img class="left" style="margin: 0 1em 0; width: 25%; padding:1em" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Seal_of_the_United_States_Department_of_Defense.svg/1200px-Seal_of_the_United_States_Department_of_Defense.svg.png"></a>
-            <div style="margin-left: 25%; padding-left: 5%;">
-				<a><h4 style="text-align: left"><b>Department of Defense</b></h4></a><p style="float:right">May 2020 - November 2024</p>
-				<p >Unity Developer
-					</br>
-				</p>
-				<ul style="padding-left: 1em">
-					<p>
-					Initially hired as a contractor and later appointed as a government entity, I contributed to Unity-based military training simulations by providing technical support and guidance to development teams.
-					</br></br>
-					As a Unity Developer, I design and implement training systems and interactive simulations, including UI/UX wireframes, interactive elements, and core functionality within Unity’s Canvas system. 
-					I optimize development workflows through custom build pipelines, performance profiling, and asset pipeline management, and create advanced shaders with HLSL and Shader Graph to enhance visual fidelity.
-					</br></br>
-					I also produce photorealistic 3D assets using Maya, Substance Painter, and Photoshop, integrating them into Unity while maintaining runtime performance and efficiency.
-					</br></br>
-					Through these contributions, I helped deliver innovative, high-quality training solutions that provide soldiers with engaging and effective learning experiences, supporting the Army’s mission and ensuring that training initiatives remain at the forefront of technology.
-					</p>
-				</ul>
-				
-			</div>
-			
-			
-			
-				<div  class="clear" style="background-color: #1e1e1e; padding: .2em; border-radius: 25px"></div>
-			</br>
-			<a href="https://cedarbandcorp.com/" target="_blank"><img class="left" style="margin: 0 1em 0; width: 25%;"src="media/cedarBandCorp.png"></a>
-            <div style="margin-left: 25%; padding-left: 5%;">
-				<a href="https://cedarbandcorp.com/" target="_blank"><h4 style="text-align: left"><b>Cedar Band Corporation Suh’dutsing Telecom</b></h4></a><p style="float:right">December 2018 - May 2020</p>
-				<p >3D Developer
-					</br>
-				</p>
-				<ul style="padding-left: 1em">
-					                    <p>As a Unity developer, I contributed to several projects aimed at educating US soldiers and developing innovative products. 
-                    To serve these goals, I developed Unity builds tailored to client requirements, implementing project workflow architectures, UX/UI, and data parsing functionality.
-                    </br></br>
-                    In addition, I optimized asset creation processes, utilizing cutting-edge photogrammetry and 3D printing technologies to improve product development. 
-                    I created photorealistic 3D models and employed Substance Painter to generate PBR textures, while also writing custom shaders using HLSL for advanced graphical effects.
-                    </br></br>
-                    To deploy projects across multiple platforms, I utilized Unity's capabilities to build apps for Android, iOS, and WebGL, ensuring optimal user experience and accessibility.     
-                    </p>
-				</ul>
-				</br>
-			</div>
-			<div  class="clear" style="background-color: #1e1e1e; padding: .2em; border-radius: 25px"></div>
-			</br>
-			<a href="https://www.wooga.com/" target="_blank"><img class="left" style="margin: 0 1em 0; width: 25%; filter: grayscale(100%) invert(100%);"src="https://cdn-images-1.medium.com/max/470/1*McUBq4yklRe3VffUb_V-2g@2x.png"></a>
-            <div style="margin-left: 25%; padding-left: 5%;">
-				<a href="https://www.wooga.com/" target="_blank"><h4 style="text-align: left"><b>WOOGA</b></h4></a><p style="float:right">April 2017 - November 2017</p>
-				<p >Game Design Intern
-					</br>
-				</p>
-				<ul style="padding-left: 1em">
-					<p>
-					During my internship at a Wooga, I conducted extensive research on the mechanics used by our competitors and wrote detailed reports that helped identify key features in the Match3 genre.
-					</br></br>
-					In addition, I leveraged my creative skills to design engaging and challenging Match3 levels using the company’s proprietary game engine. 
-					To streamline the development process, I also created custom JavaScript scripts within Google Spreadsheet that improved the populating configuration and error-checking process for character dialogue.
-					</br></br>
-					To ensure optimal performance, I rigorously tested for bugs and created bug reports for the designated team members. 
-					</p>
-				</ul>
-				
-			</div>
-	
-        </div>
-    </section>
-	
-	<div id="projectThumbnail"></div> 
-	
-
-	<div id="footer"></div> 
+	<div id="footer"></div>
 </main>
-	<div id="popup"></div>
+<div id="menu"></div>
+<div id="popup"></div>
 </body>
 </html>

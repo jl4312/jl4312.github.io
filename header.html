@@ -1,40 +1,21 @@
-
-<head>
-  <link rel="stylesheet" href="stylesheets/menuStyle.css">
-	
-</head>
-<div class="navigation">
-	<div>
-
-		<h4 style="padding-left: 20px; padding-top: 10px"><a href="index.html"><strong>Joseph Lu</strong></a></h4>
-	</div>
-		<div class="topnav" id="myTopnav">
-		<div>
-			<b>
-			<a href=""></a>
-			<a href="index.html">Home</a>
-			<a href="about.html">About</a>
-			<a href="projects.html">Projects</a>
-			<a href="demoReel.html">Demo Reel</a>
-			<a href="https://www.artstation.com/jl4312" target="_blank">Artstation</a>
-			<a href="media/resumeFiles/Lu_resume.pdf"target="_blank">Resume</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<img src="media/menu.png" width=30px style="padding: 0">
-			</a>
-			</b>
-			</div>
+<header class="site-bar">
+	<div class="bar-in">
+		<div class="bar-id">
+			<a class="bar-name" href="index.html" title="Back to home">Joseph Lu</a>
+			<span class="bar-here"></span>
 		</div>
+		<nav class="bar-tabs" aria-label="Site">
+			<a data-nav="projects" href="projects.html">Projects</a>
+			<a data-nav="reel" href="demoReel.html">Demo Reel</a>
+			<a data-nav="about" href="about.html">About</a>
+		</nav>
+		<div class="bar-actions icon-row">
+			<a class="btn-accent-sm" href="media/resumeFiles/Lu_resume.pdf" target="_blank" rel="noopener">Resume</a>
+			<a class="icon-btn js-email" href="#" data-e="moc.liamg@ulhpesoj31" aria-label="Email me" title="Email me"><img src="media/mailIcon.png" alt=""></a>
+			<a class="icon-btn" href="https://www.linkedin.com/in/jl4312/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><img src="media/linkedInIcon.png" alt=""></a>
+			<a class="icon-btn" href="https://www.artstation.com/jl4312" target="_blank" rel="noopener" aria-label="ArtStation" title="ArtStation"><img src="media/artstationIcon.png" alt=""></a>
+			<a class="icon-btn" href="https://github.com/jl4312" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><img src="media/githubIcon.png" alt=""></a>
+		</div>
+		<button class="menu-btn js-menu-open" type="button" aria-label="Open menu" aria-controls="siteMenu"><svg viewBox="0 0 24 24" fill="none" stroke="#f2f2f2" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 	</div>
-	</br></br></br>
-	
-	<script>
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-		x.className += " responsive";
-		
-	  } else {
-		x.className = "topnav";
-	  }
-	}
-</script>
+</header>

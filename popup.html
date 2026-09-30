@@ -1,44 +1,16 @@
-<script type="text/javascript">
-    // This will now work as the element referenced must already be loaded
-		$('#project1').load("p_Clapback.html");
-		$('#project2').load("p_VRsusGuardian.html");
-		//$('#project3').load("p_ChiaroScuro.html");
-		$('#project4').load("p_FlickerFortress.html");
-		$('#project5').load("p_LightWithin.html");
-		$('#project3').load("p_ToCarryaSword.html");
-</script>
-
-<!-- The Modal -->
+<!-- Project popup. Its content comes from data/projects.js -->
 <div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div  class="modal-content">
-    <div class="modal-header">
-	
-      <section><h2 id="projectName"></h2></section>
-	  <section class="close" ><h2><b>&times;</b></h2></section>
-    </div>
-	<div id="project1"></div>
-	<div id="project2"></div>
-	<div id="project3"></div>
-	<div id="project4"></div>
-	<div id="project5"></div>
-	<div id="project7"></div>
-	<div></div>
-</div>
-<div>
-<p></p>
+	<div class="modal-content">
+		<div class="modal-header">
+			<section><h2 id="projectName"></h2></section>
+			<section class="close" role="button" tabindex="0" aria-label="Close"><h2><b>&times;</b></h2></section>
+		</div>
+		<div id="projectPopups"></div>
+		<div id="moreProjects" class="more-proj"></div>
+	</div>
 </div>
 <script>
-	// Get the modal
-	
-	var span = document.getElementsByClassName("close")[0];
-
-	
-	span.onclick = function() {
-		modal = document.getElementById('myModal');
-		modal.style.display = "none";
-		reset();
-		console.log("close");
-	}
-	</script>
+	buildProjectPopups();
+	document.querySelector("#myModal .close").onclick = function () { close(); };
+	document.querySelector("#myModal .close").onkeydown = function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); close(); } };
+</script>

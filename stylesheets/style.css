@@ -141,7 +141,7 @@ h3{
 	padding: .5em;
 	transition: 0.3s ease;
 	cursor: pointer;
-	opacity: .3;
+	opacity: .65;
 }
 .clickableIcon:hover{
 	opacity: 1;
@@ -451,7 +451,6 @@ a:link{
 	text-decoration: none;
 }
 
-}
 .cred button {
     display: block;
     margin:0 auto 1em;
@@ -467,4 +466,31 @@ a:link{
 .cred hr {
     margin-bottom: 2em;
     border-color: #737373;
-}    
+}
+
+/* ---------- Slim header (inner pages) + S footer + icon buttons ---------- */
+.site-bar { background: #262626; border-bottom: 1px solid #3a3a3a; margin-bottom: 28px; }
+.site-bar-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
+.bar-name { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; color: #f2f2f2 !important; text-decoration: none !important; }
+.bar-name strong { font-size: 1.35rem; }
+.bar-name span { font-size: .95rem; color: #3ad6e6; }
+.bar-name:hover strong { color: #3ad6e6; }
+.icon-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.icon-btn {
+	display: inline-flex; align-items: center; justify-content: center;
+	width: 44px; height: 44px; border: 1px solid #5a5a5a; border-radius: 8px;
+	transition: border-color .15s, background .15s;
+}
+.icon-btn img { width: 20px; height: 20px; object-fit: contain; opacity: .85; transition: opacity .15s; }
+.icon-btn:hover, .icon-btn:focus-visible { border-color: #3ad6e6; background: rgba(58, 214, 230, .08); }
+.icon-btn:hover img, .icon-btn:focus-visible img { opacity: 1; }
+.btn-accent-sm { display: inline-flex; align-items: center; height: 44px; padding: 0 16px; border-radius: 8px; background: #3ad6e6; color: #1e1e1e !important; font-weight: 700; text-decoration: none !important; }
+.btn-accent-sm:hover { background: #8beaf3; }
+.site-foot { border-top: 1px solid #3a3a3a; margin-top: 0; }
+.site-foot-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding-top: 22px; padding-bottom: 22px; }
+.foot-name { color: #a6a6a6; font-size: .95rem; }
+@media (max-width: 575px) { .site-foot-inner { justify-content: center; text-align: center; } .bar-name span { display: none; } }
+/* Override the old generic "header" / "header img" rules for the new headers */
+header.site-bar { padding: 0; }
+header.site-bar img, header.s-header img { margin: 0; display: block; max-width: none; }
+.icon-btn img { margin: 0 !important; }

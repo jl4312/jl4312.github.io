@@ -4,205 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
+
     <!-- jQuery & BootStrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Site content: edit the files in the data/ folder -->
+	<script src="data/about.js"></script>
+	<script src="data/experience.js"></script>
+	<script src="data/skills.js"></script>
+	<script src="data/projects.js"></script>
+	<script src="data/artwork.js"></script>
 	<script src="script/popup.js"></script>
+	<script src="script/site.js"></script>
+	<script src="script/lightbox.min.js"></script>
     <!--Stylesheets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/popup.css">
-	<link rel="stylesheet" href="stylesheets/carousel.css">
-	<link rel="stylesheet" href="stylesheets/menu.css">
-	<script
-		src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-		crossorigin="anonymous">
-	</script>
-	<script> 
-$(function(){
-		$("#header").load("header.html"); 
-		$("#footer").load("footer.html"); 
-		$("#skills").load("skills.html"); 
-		$("#projectThumbnail").load("projectThumbnail.html");
+	<link rel="stylesheet" href="stylesheets/lightbox.css">
+	<link rel="stylesheet" href="stylesheets/site.css">
+	<script>
+	$(function(){
+		$("#menu").load("menu.html", siteNav);
+		$("#footer").load("footer.html");
 		$("#popup").load("popup.html");
-		$("#aboutMe").load("aboutMe.html");
 	});
-	</script> 
-	
-	
-    <title>Joseph Lu's Portfolio</title>
+	</script>
+
+    <meta name="description" content="Portfolio of Joseph Lu, a technical artist and Unity developer: environments, shaders, lighting, XR and gameplay for mobile, PC and Meta Quest 3.">
+    <title>Joseph Lu | Technical Artist &amp; Unity Developer</title>
 </head>
-<body>
+<body data-page="home">
 <main role="main">
-	<div id="header"></div> 
-
-		<div class="container mt-5">
-		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-		   <ol class="carousel-indicators">
-				<li data-target="#carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel" data-slide-to="1"></li>
-				<li data-target="#carousel" data-slide-to="2"></li>
-				<li data-target="#carousel" data-slide-to="3"></li>
-			</ol>
-			<div class="carousel-inner">
-			  <!-- Image Slide -->
-			  <div class="carousel-item">
-				<img src="media/flickerFortress.gif" class="d-block w-100" alt="Image 1">
-				<div class="carousel-caption d-none d-md-block">
-				  <h2>Flicker Fortress</h2>
-				</div>
-			  </div>
-			  <!-- Video Slide -->
-			  <div class="carousel-item active">
-				<div class="embed-responsive embed-responsive-16by9">
-				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7xXrWlpUyW8?si=cje8bxvll42tNbDs&autoplay=1&mute=1"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				</div>
-				<div class="carousel-caption d-none d-md-block">
-				<h2></h2>
-				</div>
-			  </div>
-			   <!-- Video Slide -->
-			  <div class="carousel-item">
-				<div class="embed-responsive embed-responsive-16by9">
-				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ygymp1L-TXY?si=TCVtLvDqE_jkgfTZ&autoplay=1&mute=1" title="The Light Within: Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				</div>
-				<div class="carousel-caption d-none d-md-block">
-				<h2></h2>
-				</div>
-			  </div>
-			  <!-- Add more image and video slides as needed -->
-				<div class="carousel-item">
-				<img src="media/clapback.gif" class="d-block w-100" alt="Image 1">
-				<div class="carousel-caption d-none d-md-block">
-				  <h2></h2>
-				</div>
-			  </div>
+	<div class="site-wrap">
+		<header class="s-header">
+			<div>
+				<h1>Joseph Lu</h1>
+				<p class="s-title">Technical Artist &amp; Unity Developer</p>
 			</div>
-			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Next</span>
-			</a>
-		  </div>
-	</div>
-    <div class="container">
-        
- <!-- Video Slide
-			  <div class="carousel-item">
-				<video class="d-block w-100" controls autoplay>
-				  <source src="media/demoReel.mp4" type="video/mp4">
-				  Your browser does not support the video tag.
-				</video>
-				<div class="carousel-caption d-none d-md-block">
-				<h2></h2>
-				</div>
-			  </div> -->
-	<section class="desc">
-            <div id="aboutMe"></div> 
-			</br>
-			<div  class="clear" style="background-color: #323232; padding: .2em; border-radius: 25px"></div>
-			</br>
-		
-		<div id="skills"></div> 
-			<!--
-            <p>Here's a trailer for the game:</p>
-            <div class="vid">
-                <iframe src="https://www.youtube.com/embed/cu3ih-etwGA?rel=0" frameborder="0" ></iframe>
-            </div>
-        </section>
-        <div id="build">
-            <h3>Check out the build!</h3>
-            <a href="build.html">
-            <button type="button" class="btn">VRsus guARdian Demo</button>
-            </a>
-        </div>-->
-    </div>
-	
-	<section class=greyBackground id="projectThumbnail"></section>
-    
-	
-	<section class="division">
-		<div class="container">
-            <h3 align=center>Artwork</h3>
-			 <div class="cred-container" class="important-peeps">
-			   <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/zPw5mQ" target="blank"><img src="media/artThumbnail11.png"></a>
-					<h5><b>RIOTv2</b></h5>
-				
-				</figure>
-				  <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/rJ1D92" target="blank"><img src="media/artThumbnail10.png"></a>
-					<h5><b>Dragon's Rise: The Forgotten Realms - Prop Art</b></h5>
-				
-				</figure>
-			      <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/kl3Q0n" target="blank"><img src="media/artThumbnail9.png"></a>
-					<h5><b>Crow Mount Mortar</b></h5>
-				
-				</figure>
-				<figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/EaYeKN" target="blank"><img src="media/artThumbnail8.png"></a>
-					<h5><b>Untamed: When Animals Ruled the World - Prop Art</b></h5>
-				
-				</figure>
-				 <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/G8XD01" target="blank"><img src="media/artThumbnail7.png"></a>
-					<h5><b>Cloverfield House</b></h5>
-					
-				</figure>
-				<figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/bKAqqa" target="blank"><img src="media/artThumbnail6.png"></a>
-					<h5><b>Handpainted Skull Halberd</b></h5>
-				
-				</figure>
-			   <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/9mx5AQ" target="blank"><img src="media/artThumbnail5.png"></a>
-					<h5><b>Gargoyle</b></h5>
-				</figure>
-			  <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/9em1Ey" target="blank"><img src="https://cdnb.artstation.com/p/assets/covers/images/013/856/941/20181105024043/smaller_square/joseph-lu-capture4.jpg?1541407244"></a>
-					<h5><b>Pumpkit - Hermit of Souls</b></h5>
-				
-				</figure>	<!--
-                <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/Ka6L4G"><img src="media/artThumbnail1.png"></a>
-					<h5><b>Celestial Tome</b></h5>
-				
-				</figure>
-                <figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/2PD9e"><img src="media/artThumbnail2.png"></a>
-					<h5><b>Turtle Shrine</b></h5>
-				
-				</figure>
-				<figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/xX3zr"><img src="media/artThumbnail3.png"></a>
-					<h5><b>ArenaNet 2016 Creature Test: Bovine Sheartusk</b></h5>
-				
-				</figure>
-				<!--
-				<figure class="thumbnail" style="padding: 1em">
-					<a href="https://www.artstation.com/artwork/eLzQY"><img src="media/artThumbnail4.png"></a>
-					<h5>ArenaNet 2016 Creature Test: Drake</h5>
-					<p></p>
-				</figure>-->	
-				
-            </div>
-			<a href="https://artstation.com/jl4312" target="_blank" >
-				<button class="buttonLink">More</button>
-			</a>
-		</div>
-	</section>
-	</div>
+			<div class="s-actions">
+				<a class="btn-accent" href="media/resumeFiles/Lu_resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+				<a class="icon-btn js-email" href="#" data-e="moc.liamg@ulhpesoj31" aria-label="Email me" title="Email me"><img src="media/mailIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://www.linkedin.com/in/jl4312/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><img src="media/linkedInIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://www.artstation.com/jl4312" target="_blank" rel="noopener" aria-label="ArtStation" title="ArtStation"><img src="media/artstationIcon.png" alt=""></a>
+				<a class="icon-btn" href="https://github.com/jl4312" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><img src="media/githubIcon.png" alt=""></a>
+			</div>
+			<button class="menu-btn js-menu-open" type="button" aria-label="Open menu" aria-controls="siteMenu"><svg viewBox="0 0 24 24" fill="none" stroke="#f2f2f2" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+		</header>
 
-	<div id="footer"></div> 
+		<section class="s-main">
+			<div class="s-left">
+				<div class="embed-responsive embed-responsive-16by9 s-reel">
+					<iframe referrerpolicy="strict-origin-when-cross-origin" class="embed-responsive-item" src="https://www.youtube.com/embed/7xXrWlpUyW8?si=cje8bxvll42tNbDs&autoplay=1&mute=1" title="Joseph Lu demo reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<a class="sec-btn" href="about.html"><h2>Experience</h2><span class="sec-cta"><span class="cta-long">Full experience &amp; skills</span><span class="cta-short">Full</span><svg viewBox="0 0 24 24" fill="none" stroke="#3ad6e6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+				<ol class="xp-list home-xp" data-experience="home"></ol>
+			</div>
+
+			<div class="s-right">
+				<a class="sec-btn" href="projects.html"><h2>Projects</h2><span class="sec-cta"><span class="cta-long">All projects</span><span class="cta-short">All</span><svg viewBox="0 0 24 24" fill="none" stroke="#3ad6e6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+				<div class="proj-list" data-projects="home"></div>
+				<a class="sec-btn" href="https://www.artstation.com/jl4312" target="_blank" rel="noopener"><h2>Artwork</h2><span class="sec-cta"><span class="cta-long">ArtStation</span><span class="cta-short">ArtStation</span><svg viewBox="0 0 24 24" fill="none" stroke="#3ad6e6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+				<div class="art-grid" data-artwork="grid"></div>
+			</div>
+		</section>
+	</div>
+	<div id="footer"></div>
 </main>
-	<div id="popup"></div> 
+<div id="menu"></div>
+<div id="popup"></div>
 </body>
 </html>
