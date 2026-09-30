@@ -181,7 +181,7 @@ var LIST_TEMPLATES = {
 			'<span class="proj-meta">' + esc(p.years) + '</span><span class="proj-desc">' + richText(p.description || p.homeDescription) + "</span></span></a>";
 	},
 	jump: function (p) {
-		return '<a href="#' + projectSlug(p) + '"><img src="' + esc(p.thumbnail) + '" alt="">' + esc(p.title) + "</a>";
+		return '<a href="#' + projectSlug(p) + '" onclick="test(' + p.id + '); return false;"><img src="' + esc(p.thumbnail) + '" alt="">' + esc(p.title) + "</a>";
 	},
 	articles: function (p) {
 		var facts = [["Role", p.role], ["Team", p.team], ["Platform", p.platform], ["Dates", p.dates]]
